@@ -7,6 +7,7 @@ java_test(
   deps = ["//src/main/java/abc",
     "@maven//:junit_junit",
     "@maven//:com_google_truth_truth",
+    "@maven//:org_mockito_mockito_core",
   ]
 )
 

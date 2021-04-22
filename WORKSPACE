@@ -18,6 +18,7 @@ maven_install(
         "com.google.guava:guava:30.1.1-jre",
         "com.google.truth:truth:1.1.2",
         "com.google.inject:guice:5.0.1",
+        "org.mockito:mockito-core:3.9.0",
     ],
     repositories = [
         "https://repo1.maven.org/maven2",

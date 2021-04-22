@@ -1,8 +1,9 @@
 package abc;
 
-import static com.google.common.truth.Truth.assertThat;
-
 import org.junit.Test;
+import org.mockito.Mockito;
+
+import static com.google.common.truth.Truth.assertThat;
 
 public class SolutionTest {
     @Test
@@ -16,5 +17,17 @@ public class SolutionTest {
     public void testEchoSet() {
         Solution solution = new Solution();
         assertThat(solution.echoSet("foo")).containsExactly("foo");
+    }
+
+    interface Shape {
+        int getArea();
+    }
+
+    @Test
+    public void testMock() {
+        Shape shapeMock = Mockito.mock(Shape.class);
+        Mockito.when(shapeMock.getArea()).thenReturn(50);
+        assertThat(shapeMock.getArea()).isEqualTo(50);
+        Mockito.verify(shapeMock, Mockito.times(1)).getArea();
     }
 }
