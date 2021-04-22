@@ -1,4 +1,4 @@
-package abc;
+package abc.demo;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.inject.Inject;

@@ -1,4 +1,4 @@
-package abc;
+package abc.demo;
 
 import com.google.inject.AbstractModule;
 

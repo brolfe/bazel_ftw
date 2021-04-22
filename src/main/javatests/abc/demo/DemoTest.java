@@ -1,4 +1,4 @@
-package abc;
+package abc.demo;
 
 import org.junit.Test;
 import org.mockito.Mockito;
