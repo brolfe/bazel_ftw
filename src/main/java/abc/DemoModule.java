@@ -2,9 +2,9 @@ package abc;
 
 import com.google.inject.AbstractModule;
 
-final class SolutionModule extends AbstractModule {
+final class DemoModule extends AbstractModule {
     @Override
     protected void configure() {
-        bind(Solution.class);
+        bind(Demo.class);
     }
 }

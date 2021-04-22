@@ -5,18 +5,18 @@ import org.mockito.Mockito;
 
 import static com.google.common.truth.Truth.assertThat;
 
-public class SolutionTest {
+public class DemoTest {
     @Test
     public void testEcho() {
-        Solution solution = new Solution();
-        String result = solution.echo("foo");
+        Demo demo = new Demo();
+        String result = demo.echo("foo");
         assertThat(result).isEqualTo("Echo foo");
     }
 
     @Test
     public void testEchoSet() {
-        Solution solution = new Solution();
-        assertThat(solution.echoSet("foo")).containsExactly("foo");
+        Demo demo = new Demo();
+        assertThat(demo.echoSet("foo")).containsExactly("foo");
     }
 
     interface Shape {

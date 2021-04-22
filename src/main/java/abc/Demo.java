@@ -3,10 +3,10 @@ package abc;
 import com.google.common.collect.ImmutableSet;
 import com.google.inject.Inject;
 
-final class Solution {
+final class Demo {
 
     @Inject
-    Solution() {}
+    Demo() {}
     String echo(String input) {
         return "Echo " + input;
     }

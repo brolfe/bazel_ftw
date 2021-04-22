@@ -3,7 +3,7 @@
 Some basic boilerplate for a bazel based java project.
 
 ```shell
-bazel test //src/main/javatests/abc:solution
+bazel test //src/main/javatests/abc:demo
 ```
 
 ## TODO
