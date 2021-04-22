@@ -35,5 +35,5 @@ java_binary(
   runtime_deps = [
     ":demo_main_lib",
   ],
-  main_class = "DemoMain",
+  main_class = "abc.demo.DemoMain",
 )
