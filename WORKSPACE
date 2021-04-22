@@ -17,7 +17,7 @@ maven_install(
         "junit:junit:4.12",
         "com.google.guava:guava:30.1.1-jre",
         "com.google.truth:truth:1.1.2",
-        # "org.hamcrest:hamcrest-library:1.3",
+        "com.google.inject:guice:5.0.1",
     ],
     repositories = [
         "https://repo1.maven.org/maven2",
